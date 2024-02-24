@@ -78,7 +78,7 @@ export const LearMore = styled.button`
   width: 274px;
   height: 44px;
   border-radius: 12px;
-  margin-top: 28px;
+  margin-top: 18px;
   border: none;
   background-color: #3470ff;
   color: white;
@@ -99,5 +99,17 @@ export const YearPrice = styled.div`
 export const BlueModel = styled.span`
   color: #12141773;
   font-size: 12px;
-  color: blue;
+`;
+
+export const LoadMore = styled.button`
+  border: none;
+  background-color: transparent;
+  color: #3470ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 50%;
+  cursor: pointer;
+
+  font-family: 'Manrope', sans sans-serif;
 `;

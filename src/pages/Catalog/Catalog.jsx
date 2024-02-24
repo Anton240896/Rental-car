@@ -15,6 +15,7 @@ import {
   Address,
   LearMore,
   BlueModel,
+  LoadMore,
 } from './Catalog.styled';
 
 const Catalog = () => {
@@ -71,7 +72,6 @@ const Catalog = () => {
             address,
             rentalCompany,
             type,
-            functionalities,
           }) => (
             <CarCard key={id}>
               <Img src={img} alt={`${make}`} />
@@ -101,7 +101,9 @@ const Catalog = () => {
         )}
       </CarList>
 
-      {loadMoreVisible && <button onClick={handleLoadMore}>Load More</button>}
+      {loadMoreVisible && (
+        <LoadMore onClick={handleLoadMore}>Load More</LoadMore>
+      )}
     </div>
   );
 };
