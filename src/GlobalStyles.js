@@ -5,6 +5,7 @@ export const GlobalStyles = createGlobalStyle`
 
 
 
+
 body {
   margin: 0;
 }
@@ -40,4 +41,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 };
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 `;
+
+export default GlobalStyles;

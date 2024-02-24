@@ -1,10 +1,15 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { App } from 'components/App';
-import './GlobalStyles.js';
+import { createRoot } from 'react-dom/client'; // Зміна імпорту
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+import { App } from './components/App';
+import { BrowserRouter } from 'react-router-dom';
+import { GlobalStyles } from 'GlobalStyles';
+
+createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter basename="/Rental-car">
+      <GlobalStyles />
+      <App />
+    </BrowserRouter>
   </React.StrictMode>
 );
