@@ -71,7 +71,7 @@ export const Model = styled.span`
 `;
 
 export const Price = styled.span`
-  padding-left: 94px;
+  padding-left: 40px;
 `;
 
 export const LearMore = styled.button`
@@ -89,4 +89,15 @@ export const LearMore = styled.button`
 
 export const Address = styled.span`
   color: #12141773;
+  font-size: 12px;
+`;
+
+export const YearPrice = styled.div`
+  display: flex;
+`;
+
+export const BlueModel = styled.span`
+  color: #12141773;
+  font-size: 12px;
+  color: blue;
 `;

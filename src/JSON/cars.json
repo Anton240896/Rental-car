@@ -21,7 +21,7 @@
     ],
     "rentalPrice": "$40",
     "rentalCompany": "Luxury Car Rentals",
-    "address": "Kiev, Ukraine",
+    "address": "Kiev | Ukraine",
     "rentalConditions": "Minimum age: 25\nValid driver's license\nSecurity deposit required",
     "mileage": 5858
   },
@@ -47,7 +47,7 @@
     ],
     "rentalPrice": "$50",
     "rentalCompany": "Premium Auto Rentals",
-    "address": "Lviv, Ukraine",
+    "address": "Lviv | Ukraine",
     "rentalConditions": "Minimum age: 21\nValid driver's license\nProof of insurance required",
     "mileage": 5352
   },
@@ -73,7 +73,7 @@
     ],
     "rentalPrice": "$45",
     "rentalCompany": "Luxury Car Rentals",
-    "address": "Odessa, Ukraine",
+    "address": "Odessa | Ukraine",
     "rentalConditions": "Minimum age: 23\nValid driver's license\nCredit card required",
     "mileage": 5966
   },
@@ -99,7 +99,7 @@
     ],
     "rentalPrice": "$55",
     "rentalCompany": "Adventure Car Rentals",
-    "address": "Kharkiv, Ukraine",
+    "address": "Kharkiv | Ukraine",
     "rentalConditions": "Minimum age: 25\nValid driver's license\nSecurity deposit required",
     "mileage": 4771
   },
@@ -125,7 +125,7 @@
     ],
     "rentalPrice": "$35",
     "rentalCompany": "Adventure Car Rentals",
-    "address": "Kyiv, Ukraine",
+    "address": "Kyiv | Ukraine",
     "rentalConditions": "Minimum age: 21\nValid driver's license\nCredit card required",
     "mileage": 4061
   },
@@ -151,7 +151,7 @@
     ],
     "rentalPrice": "$30",
     "rentalCompany": "City Car Rentals",
-    "address": "Lviv, Ukraine",
+    "address": "Lviv | Ukraine",
     "rentalConditions": "Minimum age: 21\nValid driver's license\nProof of insurance required",
     "mileage": 5374
   },
@@ -177,7 +177,7 @@
     ],
     "rentalPrice": "$40",
     "rentalCompany": "Luxury Car Rentals",
-    "address": "Odessa, Ukraine",
+    "address": "Odessa | Ukraine",
     "rentalConditions": "Minimum age: 25\nValid driver's license\nSecurity deposit required",
     "mileage": 6282
   },
@@ -203,7 +203,7 @@
     ],
     "rentalPrice": "$50",
     "rentalCompany": "Elite Car Rentals",
-    "address": "123 Example Boulevard, Kharkiv, Ukraine",
+    "address": "Kharkiv | Ukraine",
     "rentalConditions": "Minimum age: 25\nValid driver's license\nInsurance coverage required",
     "mileage": 6173
   },
@@ -229,7 +229,7 @@
     ],
     "rentalPrice": "$45",
     "rentalCompany": "Premium Car Rentals",
-    "address": "Dnipro, Ukraine",
+    "address": "Dnipro | Ukraine",
     "rentalConditions": "Minimum age: 25\nValid driver's license\nSecurity deposit required",
     "mileage": 4989
   },
@@ -255,7 +255,7 @@
     ],
     "rentalPrice": "$25",
     "rentalCompany": "Economy Car Rentals",
-    "address": "Zaporizhzhia, Ukraine",
+    "address": "Zaporizhzhia | Ukraine",
     "rentalConditions": "Minimum age: 21\nValid driver's license\nCredit card required",
     "mileage": 4591
   },
@@ -281,7 +281,7 @@
     ],
     "rentalPrice": "$30",
     "rentalCompany": "Fun Car Rentals",
-    "address": "Vinnytsia, Ukraine",
+    "address": "Vinnytsia | Ukraine",
     "rentalConditions": "Minimum age: 21\nValid driver's license\nProof of insurance required",
     "mileage": 6275
   },
@@ -307,7 +307,7 @@
     ],
     "rentalPrice": "$150",
     "rentalCompany": "Luxury Car Rentals",
-    "address": "567 Example Street, Lviv, Ukraine",
+    "address": "Lviv | Ukraine",
     "rentalConditions": "Minimum age: 30\nValid driver's license\nSecurity deposit and insurance required",
     "mileage": 4317
   },
@@ -333,7 +333,7 @@
     ],
     "rentalPrice": "$75",
     "rentalCompany": "Exquisite Car Rentals",
-    "address": "Kyiv, Ukraine",
+    "address": "Kyiv | Ukraine",
     "rentalConditions": "Minimum age: 25\nValid driver's license\nSecurity deposit and proof of insurance required",
     "mileage": 5722
   },
@@ -359,7 +359,7 @@
     ],
     "rentalPrice": "$200",
     "rentalCompany": "Supreme Car Rentals",
-    "address": "Odessa, Ukraine",
+    "address": "Odessa | Ukraine",
     "rentalConditions": "Minimum age: 30\nValid driver's license\nSecurity deposit and insurance required",
     "mileage": 6464
   },
@@ -385,7 +385,7 @@
     ],
     "rentalPrice": "$50",
     "rentalCompany": "Classic Car Rentals",
-    "address": "Lviv, Ukraine",
+    "address": "Lviv | Ukraine",
     "rentalConditions": "Minimum age: 25\nValid driver's license\nSecurity deposit required",
     "mileage": 5091
   },
@@ -411,7 +411,7 @@
     ],
     "rentalPrice": "$500",
     "rentalCompany": "Supercar Rentals",
-    "address": "Kharkiv, Ukraine",
+    "address": "Kharkiv | Ukraine",
     "rentalConditions": "Minimum age: 30\nValid driver's license\nSecurity deposit and insurance required",
     "mileage": 5832
   },
@@ -437,7 +437,7 @@
     ],
     "rentalPrice": "$150",
     "rentalCompany": "Luxury Car Rentals",
-    "address": "Dnipro, Ukraine",
+    "address": "Dnipro | Ukraine",
     "rentalConditions": "Minimum age: 25\nValid driver's license\nSecurity deposit and insurance required",
     "mileage": 4635
   },
@@ -463,7 +463,7 @@
     ],
     "rentalPrice": "$300",
     "rentalCompany": "Classic Car Rentals",
-    "address": "Zaporizhzhia, Ukraine",
+    "address": "Zaporizhzhia | Ukraine",
     "rentalConditions": "Minimum age: 25\nValid driver's license\nSecurity deposit and proof of insurance required",
     "mileage": 5990
   },
@@ -489,7 +489,7 @@
     ],
     "rentalPrice": "$200",
     "rentalCompany": "Muscle Car Rentals",
-    "address": "Lviv, Ukraine",
+    "address": "Lviv | Ukraine",
     "rentalConditions": "Minimum age: 25\nValid driver's license\nSecurity deposit and insurance required",
     "mileage": 6330
   },
@@ -515,7 +515,7 @@
     ],
     "rentalPrice": "$250",
     "rentalCompany": "Luxury Car Rentals",
-    "address": "Kyiv, Ukraine",
+    "address": "Kyiv | Ukraine",
     "rentalConditions": "Minimum age: 25\nValid driver's license\nSecurity deposit and insurance required",
     "mileage": 6280
   },
@@ -541,7 +541,7 @@
     ],
     "rentalPrice": "$100",
     "rentalCompany": "Family Car Rentals",
-    "address": "Odesa, Ukraine",
+    "address": "Odesa | Ukraine",
     "rentalConditions": "Minimum age: 21\nValid driver's license\nSecurity deposit and insurance required",
     "mileage": 5807
   },
@@ -593,7 +593,7 @@
     ],
     "rentalPrice": "$150",
     "rentalCompany": "Premium Car Rentals",
-    "address": "Dnipro, Ukraine",
+    "address": "Dnipro | Ukraine",
     "rentalConditions": "Minimum age: 25\nValid driver's license\nSecurity deposit and insurance required",
     "mileage": 6618
   },
@@ -619,7 +619,7 @@
     ],
     "rentalPrice": "$300",
     "rentalCompany": "Luxury SUV Rentals",
-    "address": "Lviv, Ukraine",
+    "address": "Lviv | Ukraine",
     "rentalConditions": "Minimum age: 25\nValid driver's license\nSecurity deposit and insurance required",
     "mileage": 4856
   },
@@ -645,7 +645,7 @@
     ],
     "rentalPrice": "$50",
     "rentalCompany": "Economy Car Rentals",
-    "address": "Kharkiv, Ukraine",
+    "address": "Kharkiv | Ukraine",
     "rentalConditions": "Minimum age: 21\nValid driver's license\nSecurity deposit and insurance required",
     "mileage": 6234
   }

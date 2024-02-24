@@ -10,9 +10,11 @@ import {
   Name,
   TextDeskription,
   Year,
+  YearPrice,
   Price,
   Address,
   LearMore,
+  BlueModel,
 } from './Catalog.styled';
 
 const Catalog = () => {
@@ -67,20 +69,29 @@ const Catalog = () => {
             // description,
             rentalPrice,
             address,
+            rentalCompany,
+            type,
+            functionalities,
           }) => (
             <CarCard key={id}>
-              <Img src={img} alt={`${make} ${model}`} />
+              <Img src={img} alt={`${make}`} />
               <Description>
                 <NamePriceYear>
                   <Name>{make}</Name>
 
-                  <Year>{year}</Year>
-
-                  <Price>{rentalPrice}</Price>
+                  <YearPrice>
+                    <Year>{year},</Year>
+                    <Price>{rentalPrice}</Price>
+                  </YearPrice>
                 </NamePriceYear>
 
                 <TextDeskription>
-                  <Address>{address}</Address>
+                  <Address>{address} | </Address>
+                  <Address>{rentalCompany} | </Address>
+                  <Address>{type} | </Address>
+                  <BlueModel>{model} | </BlueModel>
+                  <Address>{id} | </Address>
+                  <Address>{rentalCompany} | </Address>
                 </TextDeskription>
 
                 <LearMore>Learn more</LearMore>
