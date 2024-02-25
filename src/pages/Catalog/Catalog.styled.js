@@ -91,6 +91,10 @@ export const LearnMore = styled.button`
     outline: none;
   }
 
+  &:hover {
+    background-color: blue;
+  }
+
   @media (min-width: 1220px) {
     width: 250px;
   }

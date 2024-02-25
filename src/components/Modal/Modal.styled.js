@@ -101,14 +101,22 @@ export const RentalCar = styled.button`
   border-radius: 12px;
   width: 168px;
   height: 44px;
-  margin-top: -10px;
+  margin-top: -30px;
   margin-left: auto;
   margin-right: 20px;
+
+  &:hover {
+    background-color: blue;
+  }
 `;
 
 export const Close = styled(IoIosClose)`
   position: absolute;
-  right: 10px;
+  right: 20px;
   top: 10px;
   cursor: pointer;
+
+  &:hover {
+    color: blue;
+  }
 `;

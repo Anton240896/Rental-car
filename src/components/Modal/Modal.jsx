@@ -60,6 +60,7 @@ export const CarModal = ({ isOpen, onRequestClose, car }) => {
         <TextDescription> {car.rentalConditions} </TextDescription>
 
         <TextDescription> Mileage: {car.mileage} </TextDescription>
+        <TextDescription> Price: {car.rentalPrice} </TextDescription>
 
         <RentalCar>Rental Car</RentalCar>
       </Description>

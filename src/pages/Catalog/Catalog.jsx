@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import { Filter } from '../../components/Filter/Filter';
 import axios from 'axios';
 import {
   CarList,
@@ -72,6 +73,7 @@ const Catalog = () => {
   return (
     <div>
       <Link to={location.state?.from ?? '/'}>Back home</Link>
+      <Filter />
       <CarList>
         {visibleCars.map(
           ({
