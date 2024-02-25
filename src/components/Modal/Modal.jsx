@@ -14,6 +14,7 @@ import {
   Indenture,
   Accesories,
   RentalCar,
+  Close,
 } from './Modal.styled';
 
 ReactModal.setAppElement('#root');
@@ -26,6 +27,7 @@ export const CarModal = ({ isOpen, onRequestClose, car }) => {
   return (
     <OverlayModal isOpen={isOpen} onRequestClose={onRequestClose}>
       <Description>
+        <Close size={24} onClick={onRequestClose} />
         <ImgAdvert src={car.img} alt={`${car.make} ${car.model}`} />
 
         <ContDescCar>

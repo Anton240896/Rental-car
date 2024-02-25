@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import ReactModal from 'react-modal';
+import { IoIosClose } from 'react-icons/io';
 
 export const OverlayModal = styled(ReactModal)`
   position: relative;
@@ -100,7 +101,15 @@ export const RentalCar = styled.button`
   border-radius: 12px;
   width: 168px;
   height: 44px;
+  margin-top: -10px;
   margin-left: auto;
   margin-right: 20px;
+  cursor: pointer;
+`;
+
+export const Close = styled(IoIosClose)`
+  position: absolute;
+  right: 10px;
+  top: 10px;
   cursor: pointer;
 `;
