@@ -26,7 +26,7 @@ const Catalog = () => {
   const [loadCars, setLoadCars] = useState([]);
   const [visibleCars, setVisibleCars] = useState([]);
   const [loadMoreVisible, setLoadMoreVisible] = useState(false);
-  const [selectedCar, setSelectedCar] = useState(null); // добавляем состояние для хранения выбранной машины
+  const [selectedCar, setSelectedCar] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const location = useLocation();

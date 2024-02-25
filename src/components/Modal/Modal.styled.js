@@ -9,7 +9,7 @@ export const OverlayModal = styled(ReactModal)`
   background-color: white;
 
   width: 420px;
-  height: 600px;
+  height: 640px;
   top: 50%;
   right: auto;
   bottom: auto;

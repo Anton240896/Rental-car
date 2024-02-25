@@ -1,7 +1,24 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Formik, Form, Field } from 'formik';
+import axios from 'axios';
+import makes from '../../JSON/makes.json';
 
 export const Filter = ({ onFilterChange }) => {
+  const [carMakes, setCarMakes] = useState([]);
+
+  useEffect(() => {
+    const fetchCarMakes = async () => {
+      try {
+        axios.get('../../JSON/makes.json');
+        setCarMakes(makes);
+      } catch (error) {
+        console.error('Error fetching car makes:', error);
+      }
+    };
+
+    fetchCarMakes();
+  }, []);
+
   const handleSubmit = values => {
     onFilterChange(values);
   };
@@ -14,8 +31,16 @@ export const Filter = ({ onFilterChange }) => {
       <Form>
         <label>
           Car Brand
-          <Field type="text" name="brand" placeholder="Enter the text" />
+          <Field as="select" name="brand" placeholder="Select a brand">
+            <option value="">Select a brand</option>
+            {carMakes.map((make, index) => (
+              <option key={index} value={make}>
+                {make}
+              </option>
+            ))}
+          </Field>
         </label>
+
         <label>
           Price/ 1 hour
           <Field type="text" name="price" />
