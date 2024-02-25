@@ -66,5 +66,3 @@ export const CarModal = ({ isOpen, onRequestClose, car }) => {
     </OverlayModal>
   );
 };
-
-// export default CarModal;
