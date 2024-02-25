@@ -22,9 +22,15 @@ a {
   text-decoration: none;
 }
 
-.button {
+button {
   cursor: pointer;
 }
+
+button:hover {
+  background-color: blue;
+}
+
+
 
 h1,
 h2,

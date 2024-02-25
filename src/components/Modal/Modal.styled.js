@@ -104,7 +104,6 @@ export const RentalCar = styled.button`
   margin-top: -10px;
   margin-left: auto;
   margin-right: 20px;
-  cursor: pointer;
 `;
 
 export const Close = styled(IoIosClose)`
