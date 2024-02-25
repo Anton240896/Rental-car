@@ -5,7 +5,7 @@ export const CarList = styled.div`
   flex-wrap: wrap;
   gap: 29px;
   justify-content: space-between;
-  margin: 274px 129px 274px 115px;
+  margin: 274px 129px 100px 115px;
 
   @media screen and (max-width: 992px) {
     justify-content: flex-start;
@@ -42,11 +42,11 @@ export const Description = styled.div`
 
 export const NamePriceYear = styled.div`
   display: flex;
-  gap: 3px;
+  justify-content: space-between;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  justify-content: flex-start;
+  width: 100%;
 
   font-family: 'Manrope', sans-serif;
 `;
@@ -55,8 +55,9 @@ export const Name = styled.h3`
   padding-bottom: 8px;
 `;
 
-export const TextDeskription = styled.p`
+export const TextDescription = styled.p`
   padding-bottom: 8px;
+  width: 263px;
 
   font-family: 'Manrope', sans-serif;
 `;
@@ -74,8 +75,8 @@ export const Price = styled.span`
   padding-left: 40px;
 `;
 
-export const LearMore = styled.button`
-  width: 274px;
+export const LearnMore = styled.button`
+  width: 145px;
   height: 44px;
   border-radius: 12px;
   margin-top: 18px;
@@ -85,6 +86,18 @@ export const LearMore = styled.button`
   cursor: pointer;
 
   font-family: 'Manrope', sans-serif;
+
+  &:focus {
+    outline: none;
+  }
+
+  @media (min-width: 1220px) {
+    width: 250px;
+  }
+
+  @media (min-width: 1440px) {
+    width: 274px;
+  }
 `;
 
 export const Address = styled.span`
@@ -97,7 +110,7 @@ export const YearPrice = styled.div`
 `;
 
 export const BlueModel = styled.span`
-  color: #12141773;
+  color: #3470ff;
   font-size: 12px;
 `;
 
@@ -110,6 +123,11 @@ export const LoadMore = styled.button`
   line-height: 24px;
   margin-left: 50%;
   cursor: pointer;
+  padding-bottom: 150px;
 
   font-family: 'Manrope', sans sans-serif;
+`;
+
+export const Desc = styled.p`
+  display: none;
 `;

@@ -10,9 +10,9 @@
     "fuelConsumption": "10.5",
     "engineSize": "3.6L V6",
     "accessories": [
-      "Leather seats",
-      "Panoramic sunroof",
-      "Premium audio system"
+      "Leather seats | ",
+      "Panoramic sunroof |",
+      "Premium audio system "
     ],
     "functionalities": [
       "Power liftgate",
@@ -36,8 +36,8 @@
     "fuelConsumption": "8.3",
     "engineSize": "2.0L 4-cylinder",
     "accessories": [
-      "Nappa leather seats",
-      "Bowers & Wilkins premium sound system",
+      "Nappa leather seats |",
+      "Bowers & Wilkins premium sound system |",
       "Head-up display"
     ],
     "functionalities": [
@@ -62,8 +62,8 @@
     "fuelConsumption": "7.9",
     "engineSize": "2.0L 4-cylinder",
     "accessories": [
-      "Premium leather seats",
-      "Harman Kardon audio system",
+      "Premium leather seats |",
+      "Harman Kardon audio system |",
       "Hands-free power tailgate"
     ],
     "functionalities": [
@@ -88,8 +88,8 @@
     "fuelConsumption": "19.8",
     "engineSize": "6.0L V8",
     "accessories": [
-      "Heated leather seats",
-      "Bose premium sound system",
+      "Heated leather seats |",
+      "Bose premium sound system |",
       "Off-road package"
     ],
     "functionalities": [
@@ -114,8 +114,8 @@
     "fuelConsumption": "8.7",
     "engineSize": "2.5L 4-cylinder",
     "accessories": [
-      "Leather upholstery",
-      "Power moonroof",
+      "Leather upholstery |",
+      "Power moonroof |",
       "Harman Kardon premium audio system"
     ],
     "functionalities": [
@@ -140,8 +140,8 @@
     "fuelConsumption": "7.9",
     "engineSize": "2.4L 4-cylinder",
     "accessories": [
-      "Heated front seats",
-      "Rockford Fosgate premium audio system",
+      "Heated front seats |",
+      "Rockford Fosgate premium audio system |",
       "Power liftgate"
     ],
     "functionalities": [
@@ -166,8 +166,8 @@
     "fuelConsumption": "9.5",
     "engineSize": "3.5L V6",
     "accessories": [
-      "Tri-Zone Automatic Climate Control",
-      "Bose premium audio system",
+      "Tri-Zone Automatic Climate Control |",
+      "Bose premium audio system |",
       "Rear-seat entertainment system"
     ],
     "functionalities": [
@@ -192,8 +192,8 @@
     "fuelConsumption": "18.2",
     "engineSize": "5.4L V8",
     "accessories": [
-      "Premium leather seats",
-      "THX II Certified audio system",
+      "Premium leather seats |",
+      "THX II Certified audio system |",
       "Power-deployable running boards"
     ],
     "functionalities": [
@@ -218,8 +218,8 @@
     "fuelConsumption": "14.5",
     "engineSize": "6.0L V8",
     "accessories": [
-      "Heated and ventilated front seats",
-      "BOSE premium sound system",
+      "Heated and ventilated front seats |",
+      "BOSE premium sound system |",
       "Power-folding third-row seats"
     ],
     "functionalities": [
@@ -244,8 +244,8 @@
     "fuelConsumption": "8.2",
     "engineSize": "2.0L 4-cylinder",
     "accessories": [
-      "Apple CarPlay and Android Auto integration",
-      "Blind Spot Detection",
+      "Apple CarPlay and Android Auto integration |",
+      "Blind Spot Detection |",
       "Hands-free smart liftgate"
     ],
     "functionalities": [
@@ -270,8 +270,8 @@
     "fuelConsumption": "6.9",
     "engineSize": "1.6L 4-cylinder",
     "accessories": [
-      "Convertible soft top",
-      "Sport seats",
+      "Convertible soft top |",
+      "Sport seats |",
       "MINI Connected infotainment system"
     ],
     "functionalities": [
@@ -296,8 +296,8 @@
     "fuelConsumption": "22.5",
     "engineSize": "6.8L V8",
     "accessories": [
-      "Mulliner Driving Specification",
-      "Naim for Bentley premium audio system",
+      "Mulliner Driving Specification |",
+      "Naim for Bentley premium audio system |",
       "Heated steering wheel"
     ],
     "functionalities": [
@@ -322,8 +322,8 @@
     "fuelConsumption": "11.8",
     "engineSize": "5.0L V8",
     "accessories": [
-      "Airscarf neck-level heating",
-      "Harman Kardon premium audio system",
+      "Airscarf neck-level heating |",
+      "Harman Kardon premium audio system |",
       "Active Body Control suspension"
     ],
     "functionalities": [
@@ -348,8 +348,8 @@
     "fuelConsumption": "16.5",
     "engineSize": "6.0L V12",
     "accessories": [
-      "Carbon Ceramic brakes",
-      "Bang & Olufsen BeoSound audio system",
+      "Carbon Ceramic brakes |",
+      "Bang & Olufsen BeoSound audio system |",
       "Bridge of Weir leather upholstery"
     ],
     "functionalities": [
@@ -374,8 +374,8 @@
     "fuelConsumption": "15.2",
     "engineSize": "5.7L V8",
     "accessories": [
-      "T-Top roof",
-      "Delco premium audio system",
+      "T-Top roof |",
+      "Delco premium audio system |",
       "Sport suspension"
     ],
     "functionalities": [
@@ -400,8 +400,8 @@
     "fuelConsumption": "25.0",
     "engineSize": "6.5L V12",
     "accessories": [
-      "Carbon-fiber body panels",
-      "Alcantara upholstery",
+      "Carbon-fiber body panels |",
+      "Alcantara upholstery |",
       "Lamborghini Infotainment System"
     ],
     "functionalities": [
@@ -426,8 +426,8 @@
     "fuelConsumption": "8.5",
     "engineSize": "2.0L Inline-4",
     "accessories": [
-      "Bang & Olufsen 3D sound system",
-      "Audi Virtual Cockpit",
+      "Bang & Olufsen 3D sound system |",
+      "Audi Virtual Cockpit |",
       "Audi Drive Select"
     ],
     "functionalities": [
@@ -452,8 +452,8 @@
     "fuelConsumption": "14.2",
     "engineSize": "4.9L V8",
     "accessories": [
-      "Aluminum space frame",
-      "Nappa leather upholstery",
+      "Aluminum space frame |",
+      "Nappa leather upholstery |",
       "Harman Kardon audio system"
     ],
     "functionalities": [
@@ -478,8 +478,8 @@
     "fuelConsumption": "13.5",
     "engineSize": "5.7L V8",
     "accessories": [
-      "Leather upholstery",
-      "Bose premium sound system",
+      "Leather upholstery |",
+      "Bose premium sound system |",
       "Performance suspension"
     ],
     "functionalities": [
@@ -504,8 +504,8 @@
     "fuelConsumption": "9.8",
     "engineSize": "3.5L V6",
     "accessories": [
-      "Airscarf neck-level heating",
-      "Harman Kardon surround sound system",
+      "Airscarf neck-level heating |",
+      "Harman Kardon surround sound system |",
       "Magic Sky Control panoramic roof"
     ],
     "functionalities": [
@@ -530,8 +530,8 @@
     "fuelConsumption": "8.2",
     "engineSize": "3.6L V6",
     "accessories": [
-      "Stow 'n Go seating",
-      "Uconnect infotainment system",
+      "Stow 'n Go seating |",
+      "Uconnect infotainment system |",
       "Blind Spot Monitoring"
     ],
     "functionalities": [
@@ -556,8 +556,8 @@
     "fuelConsumption": "6.2",
     "engineSize": "1.6L 4-cylinder",
     "accessories": [
-      "Apple CarPlay and Android Auto integration",
-      "Smart Key with Push Button Start",
+      "Apple CarPlay and Android Auto integration |",
+      "Smart Key with Push Button Start |",
       "Automatic climate control"
     ],
     "functionalities": [
@@ -582,8 +582,8 @@
     "fuelConsumption": "8.5",
     "engineSize": "2.0L 4-cylinder",
     "accessories": [
-      "Leather upholstery",
-      "Panoramic sunroof",
+      "Leather upholstery |",
+      "Panoramic sunroof |",
       "Harman Kardon premium sound system"
     ],
     "functionalities": [
@@ -608,8 +608,8 @@
     "fuelConsumption": "11.8",
     "engineSize": "3.0L V6",
     "accessories": [
-      "Premium Windsor leather seats",
-      "Meridian surround sound system",
+      "Premium Windsor leather seats |",
+      "Meridian surround sound system |",
       "Adaptive Dynamics suspension"
     ],
     "functionalities": [
@@ -634,8 +634,8 @@
     "fuelConsumption": "6.2",
     "engineSize": "1.6L 4-cylinder",
     "accessories": [
-      "Apple CarPlay and Android Auto integration",
-      "Smart Key with Push Button Start",
+      "Apple CarPlay and Android Auto integration |",
+      "Smart Key with Push Button Start |",
       "Automatic climate control"
     ],
     "functionalities": [

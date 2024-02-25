@@ -8,22 +8,36 @@ import {
   CarCard,
   NamePriceYear,
   Name,
-  TextDeskription,
+  TextDescription,
   Year,
   YearPrice,
   Price,
   Address,
-  LearMore,
+  LearnMore,
   BlueModel,
   LoadMore,
+  Desc,
 } from './Catalog.styled';
+
+import { CarModal } from '../../components/Modal/Modal';
 
 const Catalog = () => {
   const [loadCars, setLoadCars] = useState([]);
   const [visibleCars, setVisibleCars] = useState([]);
   const [loadMoreVisible, setLoadMoreVisible] = useState(false);
+  const [selectedCar, setSelectedCar] = useState(null); // добавляем состояние для хранения выбранной машины
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const location = useLocation();
+
+  const openModal = car => {
+    setSelectedCar(car);
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
 
   useEffect(() => {
     const fetchCars = async () => {
@@ -58,7 +72,6 @@ const Catalog = () => {
   return (
     <div>
       <Link to={location.state?.from ?? '/'}>Back home</Link>
-
       <CarList>
         {visibleCars.map(
           ({
@@ -67,11 +80,16 @@ const Catalog = () => {
             year,
             model,
             img,
-            // description,
             rentalPrice,
             address,
             rentalCompany,
             type,
+            description,
+            fuelConsumption,
+            engineSize,
+            accessories,
+            rentalConditions,
+            mileage,
           }) => (
             <CarCard key={id}>
               <Img src={img} alt={`${make}`} />
@@ -80,26 +98,54 @@ const Catalog = () => {
                   <Name>{make}</Name>
 
                   <YearPrice>
-                    <Year>{year},</Year>
+                    <Year>{year}</Year>
                     <Price>{rentalPrice}</Price>
                   </YearPrice>
                 </NamePriceYear>
 
-                <TextDeskription>
+                <TextDescription>
                   <Address>{address} | </Address>
                   <Address>{rentalCompany} | </Address>
                   <Address>{type} | </Address>
                   <BlueModel>{model} | </BlueModel>
                   <Address>{id} | </Address>
-                  <Address>{rentalCompany} | </Address>
-                </TextDeskription>
+                  <Address>{rentalCompany} </Address>
+                  <Desc>{description}</Desc>
+                </TextDescription>
 
-                <LearMore>Learn more</LearMore>
+                <LearnMore
+                  onClick={() =>
+                    openModal({
+                      id,
+                      make,
+                      year,
+                      model,
+                      img,
+                      rentalPrice,
+                      address,
+                      rentalCompany,
+                      type,
+                      description,
+                      fuelConsumption,
+                      engineSize,
+                      accessories,
+                      rentalConditions,
+                      mileage,
+                    })
+                  }
+                >
+                  Learn more
+                </LearnMore>
               </Description>
             </CarCard>
           )
         )}
       </CarList>
+      <CarModal
+        isOpen={isModalOpen}
+        onRequestClose={closeModal}
+        car={selectedCar}
+      />
 
       {loadMoreVisible && (
         <LoadMore onClick={handleLoadMore}>Load More</LoadMore>
