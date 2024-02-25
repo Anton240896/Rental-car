@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/Rental-car/static/css/main.cd2e038f.css",
-    "main.js": "/Rental-car/static/js/main.b7a3f10e.js",
+    "main.js": "/Rental-car/static/js/main.a069c72e.js",
     "static/js/304.8b94a0e3.chunk.js": "/Rental-car/static/js/304.8b94a0e3.chunk.js",
-    "static/js/86.4516210d.chunk.js": "/Rental-car/static/js/86.4516210d.chunk.js",
+    "static/js/86.55c1f8f6.chunk.js": "/Rental-car/static/js/86.55c1f8f6.chunk.js",
     "static/js/733.bbd51366.chunk.js": "/Rental-car/static/js/733.bbd51366.chunk.js",
     "static/js/243.8bb16a4b.chunk.js": "/Rental-car/static/js/243.8bb16a4b.chunk.js",
     "static/js/202.12d3f7c6.chunk.js": "/Rental-car/static/js/202.12d3f7c6.chunk.js",
     "static/media/Rent-a-car.avif": "/Rental-car/static/media/Rent-a-car.75e3a93e42d6849013d9.avif",
     "index.html": "/Rental-car/index.html",
     "main.cd2e038f.css.map": "/Rental-car/static/css/main.cd2e038f.css.map",
-    "main.b7a3f10e.js.map": "/Rental-car/static/js/main.b7a3f10e.js.map",
+    "main.a069c72e.js.map": "/Rental-car/static/js/main.a069c72e.js.map",
     "304.8b94a0e3.chunk.js.map": "/Rental-car/static/js/304.8b94a0e3.chunk.js.map",
-    "86.4516210d.chunk.js.map": "/Rental-car/static/js/86.4516210d.chunk.js.map",
+    "86.55c1f8f6.chunk.js.map": "/Rental-car/static/js/86.55c1f8f6.chunk.js.map",
     "733.bbd51366.chunk.js.map": "/Rental-car/static/js/733.bbd51366.chunk.js.map",
     "243.8bb16a4b.chunk.js.map": "/Rental-car/static/js/243.8bb16a4b.chunk.js.map",
     "202.12d3f7c6.chunk.js.map": "/Rental-car/static/js/202.12d3f7c6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cd2e038f.css",
-    "static/js/main.b7a3f10e.js"
+    "static/js/main.a069c72e.js"
   ]
 }
