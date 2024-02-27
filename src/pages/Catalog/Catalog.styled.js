@@ -62,15 +62,6 @@ export const TextDescription = styled.p`
   font-family: 'Manrope', sans-serif;
 `;
 
-export const Year = styled.span`
-  padding-left: 10px;
-  color: #3470ff;
-`;
-
-export const Model = styled.span`
-  color: #3470ff;
-`;
-
 export const Price = styled.span`
   padding-left: 40px;
 `;
@@ -113,7 +104,7 @@ export const YearPrice = styled.div`
   display: flex;
 `;
 
-export const BlueModel = styled.span`
+export const Blue = styled.span`
   color: #3470ff;
   font-size: 12px;
 `;

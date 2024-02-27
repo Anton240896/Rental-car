@@ -10,12 +10,11 @@ import {
   NamePriceYear,
   Name,
   TextDescription,
-  Year,
   YearPrice,
   Price,
   Address,
   LearnMore,
-  BlueModel,
+  Blue,
   LoadMore,
   Desc,
 } from './Catalog.styled';
@@ -100,7 +99,7 @@ const Catalog = () => {
                   <Name>{make}</Name>
 
                   <YearPrice>
-                    <Year>{year}</Year>
+                    <Blue>{year}</Blue>
                     <Price>{rentalPrice}</Price>
                   </YearPrice>
                 </NamePriceYear>
@@ -109,7 +108,7 @@ const Catalog = () => {
                   <Address>{address} | </Address>
                   <Address>{rentalCompany} | </Address>
                   <Address>{type} | </Address>
-                  <BlueModel>{model} | </BlueModel>
+                  <Blue>{model} | </Blue>
                   <Address>{id} | </Address>
                   <Address>{rentalCompany} </Address>
                   <Desc>{description}</Desc>
