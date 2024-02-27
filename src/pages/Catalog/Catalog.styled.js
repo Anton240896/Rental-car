@@ -123,6 +123,6 @@ export const LoadMore = styled.button`
   font-family: 'Manrope', sans sans-serif;
 `;
 
-export const Desc = styled.p`
+export const Desc = styled.span`
   display: none;
 `;
