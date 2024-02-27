@@ -17,6 +17,7 @@ import {
   Blue,
   LoadMore,
   Desc,
+  ContBtn,
 } from './Catalog.styled';
 
 import { CarModal } from '../../components/Modal/Modal';
@@ -61,10 +62,10 @@ const Catalog = () => {
   const handleLoadMore = () => {
     const nextCars = loadCars.slice(
       visibleCars.length,
-      visibleCars.length + 12
+      visibleCars.length + 13
     );
     setVisibleCars(prevCars => [...prevCars, ...nextCars]);
-    if (visibleCars.length && nextCars.length === loadCars.length) {
+    if (visibleCars.length + nextCars.length === loadCars.length) {
       setLoadMoreVisible(false);
     }
   };
@@ -101,7 +102,9 @@ const Catalog = () => {
                 <Desc>{car.description}</Desc>
               </TextDescription>
 
-              <LearnMore onClick={() => openModal(car)}>Learn more</LearnMore>
+              <ContBtn>
+                <LearnMore onClick={() => openModal(car)}>Learn more</LearnMore>
+              </ContBtn>
             </Description>
           </CarCard>
         ))}

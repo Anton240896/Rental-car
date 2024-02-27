@@ -110,19 +110,27 @@ export const Blue = styled.span`
 `;
 
 export const LoadMore = styled.button`
+  width: 145px;
+  height: 44px;
+  border-radius: 12px;
+  margin-top: 18px;
   border: none;
-  background-color: transparent;
-  color: #3470ff;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  margin-left: 50%;
+  background-color: #3470ff;
+  color: white;
   cursor: pointer;
-  padding-bottom: 150px;
+  margin: 50px 0 50px 50%;
 
   font-family: 'Manrope', sans sans-serif;
+
+  &:hover {
+    background-color: blue;
+  }
 `;
 
 export const Desc = styled.span`
   display: none;
+`;
+
+export const ContBtn = styled.div`
+  display: flex;
 `;
