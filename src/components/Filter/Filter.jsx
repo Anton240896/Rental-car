@@ -33,7 +33,11 @@ export const Filter = ({ onFilterChange }) => {
   const PriceFilter = () => {
     const options = [];
     for (let i = 30; i <= 80; i += 10) {
-      options.push(<option>{i}</option>);
+      options.push(
+        <option key={i} value={i}>
+          {i}
+        </option>
+      );
     }
     return options;
   };
@@ -47,8 +51,10 @@ export const Filter = ({ onFilterChange }) => {
         <Label>Car Brand</Label>
         <OptionInput as="select" name="car brand">
           <option>Select all</option>
-          {carMakes.map(make => (
-            <option>{make}</option>
+          {carMakes.map((make, index) => (
+            <option key={index} value={make}>
+              {make}
+            </option>
           ))}
         </OptionInput>
 
