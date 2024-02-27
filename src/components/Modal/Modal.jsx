@@ -15,6 +15,7 @@ import {
   Accesories,
   RentalCar,
   Close,
+  BlueMileagePrice,
 } from './Modal.styled';
 
 ReactModal.setAppElement('#root');
@@ -50,10 +51,11 @@ export const CarModal = ({ isOpen, onRequestClose, car }) => {
         <TextDescription>
           <strong>Rental Conditions:</strong>
         </TextDescription>
-        <TextDescription> {car.rentalConditions} </TextDescription>
-        <TextDescription> Mileage:</TextDescription> <Blue>{car.mileage}</Blue>
+        <TextDescription> {car.rentalConditions} </TextDescription>{' '}
+        <TextDescription> Mileage:</TextDescription>{' '}
+        <BlueMileagePrice>{car.mileage}</BlueMileagePrice>
         <TextDescription> Price:</TextDescription>
-        <Blue>{car.rentalPrice}</Blue>
+        <BlueMileagePrice>{car.rentalPrice}</BlueMileagePrice>
         <RentalCar>Rental Car</RentalCar>
       </Description>
     </OverlayModal>

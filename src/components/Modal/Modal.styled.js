@@ -120,3 +120,8 @@ export const Close = styled(IoIosClose)`
     color: blue;
   }
 `;
+
+export const BlueMileagePrice = styled.span`
+  color: blue;
+  margin-left: 41px;
+`;
