@@ -16,7 +16,7 @@ export const Filter = ({ onFilterChange }) => {
   useEffect(() => {
     const fetchCarMakes = async () => {
       try {
-        axios.get('../../JSON/makes.json');
+        axios.get('https://65d8a715c96fbb24c1bc0564.mockapi.io/carAdvert/cars');
         setCarMakes(makes);
       } catch (error) {
         console.error('Error fetching car makes:', error);
