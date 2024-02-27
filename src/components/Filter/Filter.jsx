@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Formik } from 'formik';
 import axios from 'axios';
-import makes from '../../JSON/makes.json';
+import makes from '../JSON/makes.json';
 import {
   ContainerForm,
   OptionInput,
