@@ -57,7 +57,7 @@ export const TextDescription = styled.p`
   margin-top: 14px;
   margin-left: 41px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 10px;
   line-height: 15px;
   width: 300px;
 
@@ -101,7 +101,7 @@ export const RentalCar = styled.button`
   border-radius: 12px;
   width: 168px;
   height: 44px;
-  margin-top: -30px;
+  margin-top: -65px;
   margin-left: auto;
   margin-right: 20px;
 
