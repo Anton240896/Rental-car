@@ -108,7 +108,9 @@ const Catalog = () => {
                   <Address>{address} | </Address>
                   <Address>{rentalCompany} | </Address>
                   <Address>{type} | </Address>
-                  <Blue>{model} | </Blue>
+                  <strong>
+                    <Blue>{model} | </Blue>
+                  </strong>
                   <Address>{id} | </Address>
                   <Address>{rentalCompany} </Address>
                   <Desc>{description}</Desc>
