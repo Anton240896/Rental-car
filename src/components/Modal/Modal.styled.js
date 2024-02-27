@@ -87,7 +87,7 @@ export const Accesories = styled.p`
   margin-left: 41px;
   margin-top: 8px;
   font-size: 12px;
-  width: 200px;
+  width: 354px;
 `;
 
 export const Mileage = styled.div`
