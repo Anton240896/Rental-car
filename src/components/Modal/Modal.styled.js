@@ -59,7 +59,7 @@ export const TextDescription = styled.p`
   font-weight: 400;
   font-size: 10px;
   line-height: 15px;
-  width: 300px;
+  width: 353px;
 
   font-family: 'Manrope';
 `;
