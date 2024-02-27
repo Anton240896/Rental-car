@@ -1,7 +1,14 @@
 import React, { useState, useEffect } from 'react';
-import { Formik, Form, Field } from 'formik';
+import { Formik } from 'formik';
 import axios from 'axios';
 import makes from '../../JSON/makes.json';
+import {
+  ContainerForm,
+  OptionInput,
+  Label,
+  Search,
+  OptionPrice,
+} from './Filter.styled';
 
 export const Filter = ({ onFilterChange }) => {
   const [carMakes, setCarMakes] = useState([]);
@@ -23,34 +30,40 @@ export const Filter = ({ onFilterChange }) => {
     onFilterChange(values);
   };
 
+  const PriceFilter = () => {
+    const options = [];
+    for (let i = 30; i <= 80; i += 10) {
+      options.push(<option>{i}</option>);
+    }
+    return options;
+  };
+
   return (
     <Formik
       initialValues={{ brand: '', price: '', mileage: '' }}
       onSubmit={handleSubmit}
     >
-      <Form>
-        <label>
-          Car Brand
-          <Field as="select" name="brand" placeholder="Select a brand">
-            <option value="">Select a brand</option>
-            {carMakes.map((make, index) => (
-              <option key={index} value={make}>
-                {make}
-              </option>
-            ))}
-          </Field>
-        </label>
+      <ContainerForm>
+        <Label>Car Brand</Label>
+        <OptionInput as="select" name="car brand">
+          <option>Select all</option>
+          {carMakes.map(make => (
+            <option>{make}</option>
+          ))}
+        </OptionInput>
 
-        <label>
-          Price/ 1 hour
-          <Field type="text" name="price" />
-        </label>
-        <label>
-          Car mileage/ km
-          <Field type="text" name="mileage" />
-        </label>
-        <button type="submit">Search</button>
-      </Form>
+        <Label>Price/ 1 hour</Label>
+        <OptionPrice as="select" name="price">
+          <option value="">To $ </option>
+          {PriceFilter()}
+        </OptionPrice>
+
+        <Label>Car mileage/ km</Label>
+        <OptionPrice type="text" name="to" placeholder="To" />
+        <OptionPrice type="text" name="from" placeholder="From" />
+
+        <Search type="submit">Search</Search>
+      </ContainerForm>
     </Formik>
   );
 };
