@@ -29,13 +29,11 @@ export const CarModal = ({ isOpen, onRequestClose, car }) => {
       <Description>
         <Close size={24} onClick={onRequestClose} />
         <ImgAdvert src={car.img} alt={`${car.make} ${car.model}`} />
-
         <ContDescCar>
           <Name>{car.make}</Name>
           <Blue> {car.model}, </Blue>
           <YearModal>{car.year}</YearModal>
         </ContDescCar>
-
         <Indenture>
           <AddressModal>{car.address} |</AddressModal>
           <IndentureCar> id: {car.id} |</IndentureCar>
@@ -44,24 +42,18 @@ export const CarModal = ({ isOpen, onRequestClose, car }) => {
           <AddressModal>fuelConsumption: {car.fuelConsumption} |</AddressModal>
           <IndentureCar>Engine Size: {car.engineSize}</IndentureCar>
         </Indenture>
-
         <TextDescription>{car.description}</TextDescription>
-
         <TextDescription>
           <strong>Accessories and functionalities:</strong>
         </TextDescription>
-
         <Accesories> {car.accessories}</Accesories>
-
         <TextDescription>
           <strong>Rental Conditions:</strong>
         </TextDescription>
-
         <TextDescription> {car.rentalConditions} </TextDescription>
-
-        <TextDescription> Mileage: {car.mileage} </TextDescription>
-        <TextDescription> Price: {car.rentalPrice} </TextDescription>
-
+        <TextDescription> Mileage:</TextDescription> <Blue>{car.mileage}</Blue>
+        <TextDescription> Price:</TextDescription>
+        <Blue>{car.rentalPrice}</Blue>
         <RentalCar>Rental Car</RentalCar>
       </Description>
     </OverlayModal>
