@@ -99,7 +99,9 @@ const Catalog = () => {
                   <Name>{make}</Name>
 
                   <YearPrice>
-                    <Blue>{year}</Blue>
+                    <strong>
+                      <Blue>{year}</Blue>
+                    </strong>
                     <Price>{rentalPrice}</Price>
                   </YearPrice>
                 </NamePriceYear>
