@@ -64,7 +64,7 @@ const Catalog = () => {
       visibleCars.length + 12
     );
     setVisibleCars(prevCars => [...prevCars, ...nextCars]);
-    if (visibleCars.length + nextCars.length === loadCars.length) {
+    if (visibleCars.length && nextCars.length === loadCars.length) {
       setLoadMoreVisible(false);
     }
   };
@@ -74,77 +74,37 @@ const Catalog = () => {
       <Link to={location.state?.from ?? '/'}>Back home</Link>
       <Filter />
       <CarList>
-        {visibleCars.map(
-          ({
-            id,
-            make,
-            year,
-            model,
-            img,
-            rentalPrice,
-            address,
-            rentalCompany,
-            type,
-            description,
-            fuelConsumption,
-            engineSize,
-            accessories,
-            rentalConditions,
-            mileage,
-          }) => (
-            <CarCard key={id}>
-              <Img src={img} alt={`${make}`} />
-              <Description>
-                <NamePriceYear>
-                  <Name>{make}</Name>
+        {visibleCars.map((car, index) => (
+          <CarCard key={`${car.id}_${index}`}>
+            <Img src={car.img} alt={`${car.make}`} />
+            <Description>
+              <NamePriceYear>
+                <Name>{car.make}</Name>
 
-                  <YearPrice>
-                    <strong>
-                      <Blue>{year}</Blue>
-                    </strong>
-                    <Price>{rentalPrice}</Price>
-                  </YearPrice>
-                </NamePriceYear>
-
-                <TextDescription>
-                  <Address>{address} | </Address>
-                  <Address>{rentalCompany} | </Address>
-                  <Address>{type} | </Address>
+                <YearPrice>
                   <strong>
-                    <Blue>{model} | </Blue>
+                    <Blue>{car.year}</Blue>
                   </strong>
-                  <Address>{id} | </Address>
-                  <Address>{rentalCompany} </Address>
-                  <Desc>{description}</Desc>
-                </TextDescription>
+                  <Price>{car.rentalPrice}</Price>
+                </YearPrice>
+              </NamePriceYear>
 
-                <LearnMore
-                  onClick={() =>
-                    openModal({
-                      id,
-                      make,
-                      year,
-                      model,
-                      img,
-                      rentalPrice,
-                      address,
-                      rentalCompany,
-                      type,
-                      description,
-                      fuelConsumption,
-                      engineSize,
-                      accessories,
-                      rentalConditions,
-                      mileage,
-                    })
-                  }
-                >
-                  Learn more
-                </LearnMore>
-              </Description>
-            </CarCard>
-          )
-        )}
+              <TextDescription>
+                <Address>{car.address} | </Address>
+                <Address>{car.rentalCompany} | </Address>
+                <Address>{car.type} | </Address>
+                <strong>
+                  <Blue>{car.model} | </Blue>
+                </strong>
+                <Address>{car.id} | </Address>
+                <Address>{car.rentalCompany} </Address>
+                <Desc>{car.description}</Desc>
+              </TextDescription>
+
+              <LearnMore onClick={() => openModal(car)}>Learn more</LearnMore>
+            </Description>
+          </CarCard>
+        ))}
       </CarList>
       <CarModal
         isOpen={isModalOpen}
