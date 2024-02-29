@@ -1,5 +1,11 @@
-import { Link, useLocation } from 'react-router-dom';
-import { ContainerHome, Welcome, ArrowNextPage, Img } from './Home.styled';
+import { useLocation } from 'react-router-dom';
+import {
+  ContainerHome,
+  Welcome,
+  ArrowNextPage,
+  Img,
+  ArrowForward,
+} from './Home.styled';
 
 import ImageRental from '../../Images/Rent-a-car.avif';
 
@@ -16,9 +22,9 @@ export default function Home() {
           for yourself →
         </b>
       </Welcome>
-      <Link to={location.state?.from ?? '/catalog'}>
+      <ArrowForward to={location.state?.from ?? '/catalog'}>
         <ArrowNextPage size={150} />
-      </Link>
+      </ArrowForward>
     </ContainerHome>
   );
 }

@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { FaLongArrowAltRight } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 export const ContainerHome = styled.div`
   display: flex;
@@ -18,4 +19,12 @@ export const ArrowNextPage = styled(FaLongArrowAltRight)`
 
 export const Img = styled.img`
   width: 700px;
+`;
+
+export const ArrowForward = styled(Link)`
+  color: #3470ff;
+
+  &:hover {
+    color: blue;
+  }
 `;

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import { Filter } from '../../components/Filter/Filter';
 import axios from 'axios';
 import {
@@ -17,7 +17,8 @@ import {
   Blue,
   LoadMore,
   Desc,
-  ContBtn,
+  BackHome,
+  BackHomeLink,
 } from './Catalog.styled';
 
 import { CarModal } from '../../components/Modal/Modal';
@@ -72,8 +73,12 @@ const Catalog = () => {
 
   return (
     <div>
-      <Link to={location.state?.from ?? '/'}>Back home</Link>
+      <BackHome>
+        <BackHomeLink to={location.state?.from ?? '/'}>Back home</BackHomeLink>
+      </BackHome>
+
       <Filter />
+
       <CarList>
         {visibleCars.map((car, index) => (
           <CarCard key={`${car.id}_${index}`}>
@@ -102,9 +107,7 @@ const Catalog = () => {
                 <Desc>{car.description}</Desc>
               </TextDescription>
 
-              <ContBtn>
-                <LearnMore onClick={() => openModal(car)}>Learn more</LearnMore>
-              </ContBtn>
+              <LearnMore onClick={() => openModal(car)}>Learn more</LearnMore>
             </Description>
           </CarCard>
         ))}

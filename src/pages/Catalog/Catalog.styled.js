@@ -1,29 +1,27 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const CarList = styled.div`
   display: flex;
   flex-wrap: wrap;
-  gap: 29px;
-  justify-content: space-between;
-  margin: 274px 129px 100px 115px;
-
-  @media screen and (max-width: 992px) {
-    justify-content: flex-start;
-  }
+  align-items: start;
+  gap: 80px;
+  margin: 274px auto 100px 290px;
 `;
 
 export const CarCard = styled.div`
+  display: flex;
+  flex-direction: column;
   width: calc(25% - 29px);
   margin-bottom: 29px;
 
   @media screen and (max-width: 1200px) {
-    width: calc(33.33% - 29px);
+    width: calc(30% - 29px);
   }
 
   @media screen and (max-width: 768px) {
     width: calc(50% - 29px);
   }
-
   @media screen and (max-width: 576px) {
     width: 100%;
   }
@@ -42,13 +40,16 @@ export const Description = styled.div`
 
 export const NamePriceYear = styled.div`
   display: flex;
-  justify-content: space-between;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  width: 100%;
+  gap: 50px;
 
   font-family: 'Manrope', sans-serif;
+
+  @media (max-width: 1220px) {
+    gap: 8px;
+  }
 `;
 
 export const Name = styled.h3`
@@ -58,8 +59,13 @@ export const Name = styled.h3`
 export const TextDescription = styled.p`
   padding-bottom: 8px;
   width: 263px;
+  font-size: 10px;
 
   font-family: 'Manrope', sans-serif;
+
+  @media (max-width: 1220px) {
+    width: 174px;
+  }
 `;
 
 export const Price = styled.span`
@@ -131,6 +137,22 @@ export const Desc = styled.span`
   display: none;
 `;
 
-export const ContBtn = styled.div`
-  display: flex;
+export const BackHome = styled.button`
+  width: 145px;
+  height: 44px;
+  border-radius: 12px;
+  margin-top: 18px;
+  border: none;
+  background-color: #3470ff;
+  cursor: pointer;
+  margin: 50px 0 50px 50%;
+
+  &:hover {
+    background-color: blue;
+  }
+`;
+
+export const BackHomeLink = styled(Link)`
+  color: white;
+  padding-left: 5px;
 `;
