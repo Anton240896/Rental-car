@@ -6,7 +6,7 @@ export const CarList = styled.div`
   flex-wrap: wrap;
   align-items: start;
   gap: 80px;
-  margin: 274px auto 100px 290px;
+  margin: 274px 100px 80px 200px;
 `;
 
 export const CarCard = styled.div`
