@@ -28,6 +28,7 @@ export const Description = styled.div`
 
 export const NamePriceYear = styled.div`
   display: flex;
+  justify-content: space-between;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -50,10 +51,6 @@ export const TextDescription = styled.p`
   font-size: 10px;
 
   font-family: 'Manrope', sans-serif;
-
-  @media (max-width: 1220px) {
-    width: 174px;
-  }
 `;
 
 export const Price = styled.span`
