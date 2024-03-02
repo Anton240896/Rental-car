@@ -5,7 +5,7 @@ import { IoIosClose } from 'react-icons/io';
 export const OverlayModal = styled(ReactModal)`
   position: relative;
   border-radius: 12px;
-  border: 1px solid grey;
+  border: 1px solid blue;
   background-color: aliceblue;
 
   width: 420px;

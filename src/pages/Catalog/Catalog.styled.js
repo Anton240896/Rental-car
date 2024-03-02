@@ -6,7 +6,7 @@ export const CarList = styled.div`
   flex-wrap: wrap;
   align-items: start;
   gap: 80px;
-  margin: 274px 100px 80px 200px;
+  margin: 274px 100px 80px 230px;
 `;
 
 export const CarCard = styled.div`
@@ -35,10 +35,6 @@ export const NamePriceYear = styled.div`
   gap: 50px;
 
   font-family: 'Manrope', sans-serif;
-
-  @media (max-width: 1220px) {
-    gap: 8px;
-  }
 `;
 
 export const Name = styled.h3`
@@ -58,7 +54,7 @@ export const Price = styled.span`
 `;
 
 export const LearnMore = styled.button`
-  width: 145px;
+  width: 274px;
   height: 44px;
   border-radius: 12px;
   margin-top: 18px;
@@ -75,14 +71,6 @@ export const LearnMore = styled.button`
 
   &:hover {
     background-color: blue;
-  }
-
-  @media (min-width: 1220px) {
-    width: 250px;
-  }
-
-  @media (min-width: 1440px) {
-    width: 274px;
   }
 `;
 
