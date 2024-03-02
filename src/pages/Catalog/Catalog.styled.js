@@ -43,7 +43,7 @@ export const Name = styled.h3`
 
 export const TextDescription = styled.p`
   padding-bottom: 8px;
-  width: 263px;
+  width: 244px;
   font-size: 10px;
 
   font-family: 'Manrope', sans-serif;
