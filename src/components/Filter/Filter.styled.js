@@ -14,7 +14,7 @@ export const Label = styled.label`
 `;
 
 export const OptionInput = styled(Field)`
-  background-color: #f7f7fb;
+  background-color: #d1fbff;
   margin-left: 4px;
   height: 44px;
   border-radius: 12px;
@@ -23,7 +23,8 @@ export const OptionInput = styled(Field)`
   width: 224px;
 
   &:focus {
-    border: none;
+    outline: none;
+    border: 1px solid blue;
   }
 `;
 
@@ -48,7 +49,7 @@ export const Search = styled.button`
 `;
 
 export const OptionPrice = styled(Field)`
-  background-color: #f7f7fb;
+  background-color: #d1fbff;
   margin-left: 4px;
   height: 44px;
   border-radius: 12px;
@@ -57,6 +58,7 @@ export const OptionPrice = styled(Field)`
   width: 125px;
 
   &:focus {
-    border: none;
+    outline: none;
+    border: 1px solid blue;
   }
 `;

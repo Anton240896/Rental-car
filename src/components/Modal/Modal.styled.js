@@ -6,7 +6,7 @@ export const OverlayModal = styled(ReactModal)`
   position: relative;
   border-radius: 12px;
   border: 1px solid grey;
-  background-color: white;
+  background-color: aliceblue;
 
   width: 420px;
   height: 640px;

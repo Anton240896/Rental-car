@@ -12,19 +12,7 @@ export const CarList = styled.div`
 export const CarCard = styled.div`
   display: flex;
   flex-direction: column;
-  width: calc(25% - 29px);
   margin-bottom: 29px;
-
-  @media screen and (max-width: 1200px) {
-    width: calc(30% - 29px);
-  }
-
-  @media screen and (max-width: 768px) {
-    width: calc(50% - 29px);
-  }
-  @media screen and (max-width: 576px) {
-    width: 100%;
-  }
 `;
 
 export const Img = styled.img`
