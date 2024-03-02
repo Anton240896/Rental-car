@@ -79,10 +79,6 @@ export const Address = styled.span`
   font-size: 12px;
 `;
 
-export const YearPrice = styled.div`
-  display: flex;
-`;
-
 export const Blue = styled.span`
   color: #3470ff;
   font-size: 12px;

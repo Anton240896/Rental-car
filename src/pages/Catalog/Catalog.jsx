@@ -10,7 +10,6 @@ import {
   NamePriceYear,
   Name,
   TextDescription,
-  YearPrice,
   Price,
   Address,
   LearnMore,
@@ -87,12 +86,10 @@ const Catalog = () => {
               <NamePriceYear>
                 <Name>{car.make}</Name>
 
-                <YearPrice>
-                  <strong>
-                    <Blue>{car.year}</Blue>
-                  </strong>
-                  <Price>{car.rentalPrice}</Price>
-                </YearPrice>
+                <strong>
+                  <Blue>{car.year}</Blue>
+                </strong>
+                <Price>{car.rentalPrice}</Price>
               </NamePriceYear>
 
               <TextDescription>
