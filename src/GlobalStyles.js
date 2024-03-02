@@ -8,7 +8,7 @@ export const GlobalStyles = createGlobalStyle`
 
 body {
   margin: 0;
-  background-color: aliceblue;
+  background-color: white;
 }
 
 
