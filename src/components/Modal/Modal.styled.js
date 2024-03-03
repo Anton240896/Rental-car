@@ -64,6 +64,20 @@ export const TextDescription = styled.p`
   font-family: 'Manrope';
 `;
 
+export const TextConditions = styled.p`
+  margin-top: 14px;
+  padding-left: 10px;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  width: 100px;
+  color: black;
+  border: 1px solid grey;
+  border-radius: 12px;
+
+  font-family: 'Manrope';
+`;
+
 export const AddressModal = styled.span`
   color: grey;
   margin-left: 41px;
@@ -124,4 +138,10 @@ export const Close = styled(IoIosClose)`
 export const BlueMileagePrice = styled.span`
   color: blue;
   margin-left: 41px;
+`;
+
+export const ContRental = styled.div`
+  display: flex;
+  margin-left: 41px;
+  gap: 20px;
 `;

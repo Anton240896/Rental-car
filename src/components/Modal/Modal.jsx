@@ -16,6 +16,8 @@ import {
   RentalCar,
   Close,
   BlueMileagePrice,
+  TextConditions,
+  ContRental,
 } from './Modal.styled';
 
 ReactModal.setAppElement('#root');
@@ -29,12 +31,15 @@ export const CarModal = ({ isOpen, onRequestClose, car }) => {
     <OverlayModal isOpen={isOpen} onRequestClose={onRequestClose}>
       <Description>
         <Close size={24} onClick={onRequestClose} />
+
         <ImgAdvert src={car.img} alt={`${car.make} ${car.model}`} />
+
         <ContDescCar>
           <Name>{car.make}</Name>
           <Blue> {car.model}, </Blue>
           <YearModal>{car.year}</YearModal>
         </ContDescCar>
+
         <Indenture>
           <AddressModal>{car.address} |</AddressModal>
           <IndentureCar> id: {car.id} |</IndentureCar>
@@ -43,19 +48,33 @@ export const CarModal = ({ isOpen, onRequestClose, car }) => {
           <AddressModal>fuelConsumption: {car.fuelConsumption} |</AddressModal>
           <IndentureCar>Engine Size: {car.engineSize}</IndentureCar>
         </Indenture>
+
         <TextDescription>{car.description}</TextDescription>
+
         <TextDescription>
           <strong>Accessories and functionalities:</strong>
         </TextDescription>
+
         <Accesories> {car.accessories}</Accesories>
+
         <TextDescription>
           <strong>Rental Conditions:</strong>
         </TextDescription>
-        <TextDescription> {car.rentalConditions} </TextDescription>{' '}
-        <TextDescription> Mileage:</TextDescription>{' '}
+
+        <ContRental>
+          <TextConditions> {car.rentalConditions} </TextConditions>
+          <TextConditions> {car.validDriver} </TextConditions>
+          <TextConditions> {car.payment} </TextConditions>
+        </ContRental>
+
+        <TextDescription> Mileage:</TextDescription>
+
         <BlueMileagePrice>{car.mileage}</BlueMileagePrice>
+
         <TextDescription> Price:</TextDescription>
+
         <BlueMileagePrice>{car.rentalPrice}</BlueMileagePrice>
+
         <RentalCar>Rental Car</RentalCar>
       </Description>
     </OverlayModal>
