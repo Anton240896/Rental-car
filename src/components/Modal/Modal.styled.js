@@ -72,25 +72,25 @@ export const TextConditions = styled.p`
   line-height: 15px;
   width: 100px;
   color: black;
-  border: 1px solid grey;
+  border: 1px solid blue;
   border-radius: 12px;
 
   font-family: 'Manrope';
 `;
 
-export const AddressModal = styled.span`
+export const AddressModal = styled.li`
   color: grey;
   margin-left: 41px;
   font-size: 12px;
 `;
 
-export const IndentureCar = styled.span`
+export const IndentureCar = styled.li`
   color: grey;
   margin-left: 5px;
   font-size: 12px;
 `;
 
-export const Indenture = styled.div`
+export const Indenture = styled.ul`
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
