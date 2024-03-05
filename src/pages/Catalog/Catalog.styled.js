@@ -32,7 +32,6 @@ export const NamePriceYear = styled.div`
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  gap: 50px;
 
   font-family: 'Manrope', sans-serif;
 `;
