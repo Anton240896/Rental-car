@@ -71,6 +71,7 @@ export const LearnMore = styled.button`
 
   &:hover {
     background-color: blue;
+    transition: background-color 0.5s ease-in-out;
   }
 `;
 
@@ -99,6 +100,7 @@ export const LoadMore = styled.button`
 
   &:hover {
     background-color: blue;
+    transition: background-color 0.5s ease-in-out;
   }
 `;
 
@@ -118,6 +120,7 @@ export const BackHome = styled.button`
 
   &:hover {
     background-color: blue;
+    transition: background-color 0.5s ease-in-out;
   }
 `;
 
