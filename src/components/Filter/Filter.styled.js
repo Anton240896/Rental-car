@@ -7,6 +7,18 @@ export const ContainerForm = styled(Form)`
   align-items: baseline;
   padding-top: 150px;
   padding-left: 100px;
+
+  @media (max-width: 767px) {
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 91px;
+  }
+
+  @media (min-width: 768px) and (max-width: 1220px) {
+    flex-direction: column;
+    margin-left: 348px;
+    gap: 25px;
+  }
 `;
 
 export const Label = styled.label`
