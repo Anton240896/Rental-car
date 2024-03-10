@@ -1,12 +1,5 @@
-import { Link, useLocation } from 'react-router-dom';
+import React from 'react';
 
 export default function Favorites() {
-  const location = useLocation();
-
-  return (
-    <div>
-      <p>Favorites</p>
-      <Link to={location.state?.from ?? '/'}>Home back </Link>
-    </div>
-  );
+  return <div>Favorites</div>;
 }

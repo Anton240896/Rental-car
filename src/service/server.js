@@ -1,17 +1,17 @@
-const express = require('express');
-const mongoose = require('mongoose');
-const cors = require('cors');
+import express, { json } from 'express';
+import { connect, model as _model } from 'mongoose';
+import cors from 'cors';
 
 const app = express();
 app.use(cors());
-app.use(express.json());
+app.use(json());
 
-mongoose.connect('mongodb://localhost:27017/carDB', {
+connect('mongodb://localhost:27017/carDB', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
 
-const Car = mongoose.model('Car', {
+const Car = _model('Car', {
   make: String,
   model: String,
   photoLink: String,
@@ -32,5 +32,5 @@ app.get('/cars', async (req, res) => {
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
-  console.log(`Сервер запущен на порте ${PORT}`);
+  console.log(`The server is running on the port ${PORT}`);
 });

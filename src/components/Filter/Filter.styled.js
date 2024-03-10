@@ -57,6 +57,7 @@ export const Search = styled.button`
 
   &:hover {
     background-color: blue;
+    transition: background-color 1s;
   }
 `;
 
