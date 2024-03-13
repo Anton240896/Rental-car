@@ -83,6 +83,7 @@ export const InputMileage = styled.input`
   cursor: pointer;
   width: 125px;
   color: white;
+  padding-left: 37px;
 
   &:focus {
     outline: none;

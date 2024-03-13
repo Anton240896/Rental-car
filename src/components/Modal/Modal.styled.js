@@ -117,7 +117,7 @@ export const RentalCar = styled.button`
   height: 44px;
   margin-top: -65px;
   margin-left: auto;
-  margin-right: 20px;
+  margin-right: 34px;
 
   &:hover {
     background-color: blue;

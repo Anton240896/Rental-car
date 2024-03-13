@@ -111,12 +111,11 @@ export const BackHome = styled.button`
   width: 145px;
   height: 44px;
   border-radius: 12px;
-  margin-top: 18px;
   border: none;
   background-color: #3470ff;
   cursor: pointer;
-  margin: 50px 0 50px 50%;
-
+  margin-top: 40px;
+  margin-left: 200px;
   &:hover {
     background-color: blue;
     transition: background-color 1s;
