@@ -3,20 +3,15 @@ import { Form, Field } from 'formik';
 
 export const ContainerForm = styled(Form)`
   display: flex;
+  gap: 10px;
   flex-direction: row;
   align-items: baseline;
   padding-top: 150px;
   padding-left: 100px;
 
-  @media (max-width: 767px) {
+  @media (max-width: 1220px) {
     flex-direction: column;
-    gap: 30px;
     margin-left: 91px;
-  }
-
-  @media (min-width: 768px) and (max-width: 1220px) {
-    flex-direction: column;
-    margin-left: 348px;
     gap: 25px;
   }
 `;
@@ -26,13 +21,14 @@ export const Label = styled.label`
 `;
 
 export const OptionInput = styled(Field)`
-  background-color: #d1fbff;
+  background-color: #3470ff;
   margin-left: 4px;
   height: 44px;
   border-radius: 12px;
   border: none;
   cursor: pointer;
   width: 224px;
+  color: white;
 
   &:focus {
     outline: none;
@@ -41,8 +37,9 @@ export const OptionInput = styled(Field)`
 `;
 
 export const Option = styled.option`
-  height: 44px;
-  border-radius: 12px;
+  &::placeholder {
+    color: white;
+  }
 `;
 
 export const Search = styled.button`
@@ -62,16 +59,37 @@ export const Search = styled.button`
 `;
 
 export const OptionPrice = styled(Field)`
-  background-color: #d1fbff;
+  background-color: #3470ff;
   margin-left: 4px;
   height: 44px;
   border-radius: 12px;
   border: none;
   cursor: pointer;
   width: 125px;
+  color: white;
 
   &:focus {
     outline: none;
     border: 1px solid blue;
+  }
+`;
+
+export const InputMileage = styled.input`
+  background-color: #3470ff;
+  margin-left: 4px;
+  height: 44px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  width: 125px;
+  color: white;
+
+  &:focus {
+    outline: none;
+    border: 1px solid blue;
+  }
+
+  &::placeholder {
+    color: white;
   }
 `;

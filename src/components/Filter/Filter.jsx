@@ -8,6 +8,8 @@ import {
   Label,
   Search,
   OptionPrice,
+  InputMileage,
+  Option,
 } from './Filter.styled';
 
 export const Filter = ({ onFilterChange }) => {
@@ -50,7 +52,7 @@ export const Filter = ({ onFilterChange }) => {
       <ContainerForm>
         <Label>Car Brand</Label>
         <OptionInput as="select" name="car brand">
-          <option>Select all</option>
+          <Option>Select all</Option>
           {carMakes.map((make, index) => (
             <option key={index} value={make}>
               {make}
@@ -60,13 +62,13 @@ export const Filter = ({ onFilterChange }) => {
 
         <Label>Price/ 1 hour</Label>
         <OptionPrice as="select" name="price">
-          <option value="">All price </option>
+          <Option value="">All price </Option>
           {PriceFilter()}
         </OptionPrice>
 
         <Label>Car mileage/ km</Label>
-        <OptionPrice type="text" name="to" placeholder="To" />
-        <OptionPrice type="text" name="from" placeholder="From" />
+        <InputMileage type="text" name="to" placeholder="To" />
+        <InputMileage type="text" name="from" placeholder="From" />
 
         <Search type="submit">Search</Search>
       </ContainerForm>

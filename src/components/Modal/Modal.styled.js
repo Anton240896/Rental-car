@@ -72,7 +72,7 @@ export const TextConditions = styled.p`
   line-height: 15px;
   width: 100px;
   color: black;
-  border: 1px solid blue;
+  border: 1px solid #babac0;
   border-radius: 12px;
 
   font-family: 'Manrope';
