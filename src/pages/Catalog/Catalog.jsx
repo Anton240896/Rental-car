@@ -60,10 +60,7 @@ const Catalog = () => {
   }, []);
 
   const handleLoadMore = () => {
-    const nextCars = loadCars.slice(
-      visibleCars.length,
-      visibleCars.length + 13
-    );
+    const nextCars = loadCars.slice(visibleCars.length, visibleCars.length + 3);
     setVisibleCars(prevCars => [...prevCars, ...nextCars]);
     if (visibleCars.length + nextCars.length === loadCars.length) {
       setLoadMoreVisible(false);

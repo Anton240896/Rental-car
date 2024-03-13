@@ -60,7 +60,7 @@ export const Filter = ({ onFilterChange }) => {
 
         <Label>Price/ 1 hour</Label>
         <OptionPrice as="select" name="price">
-          <option value="">To $ </option>
+          <option value="">All price </option>
           {PriceFilter()}
         </OptionPrice>
 
