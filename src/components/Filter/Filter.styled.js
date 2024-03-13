@@ -7,7 +7,7 @@ export const ContainerForm = styled(Form)`
   flex-direction: row;
   align-items: baseline;
   padding-top: 150px;
-  padding-left: 100px;
+  padding-left: 39px;
 
   @media (max-width: 1220px) {
     flex-direction: column;
